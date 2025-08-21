@@ -13,7 +13,8 @@ import { Label } from "@/components/ui/label";
 export default function SignInPage() {
   return (
     <main className="w-full h-screen overflow-hidden relative">
-      <div className="absolute w-full mx-auto max-w-md top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
+              w-96 bg-white rounded-2xl shadow-xl">
           <Card className="w-full max-w-sm">
             <CardHeader>
               <CardTitle className="text-2xl">Login</CardTitle>
